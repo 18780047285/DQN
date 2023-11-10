@@ -1,0 +1,62 @@
+nodes_info:
+   - 3
+   - 2
+s:
+   - 48
+   - 12
+c:
+   d: poisson_gamma
+   args:
+      means:
+        - 3000
+        - 1000
+        - 200
+      deviations:
+        - 244.9
+        - 223.6
+        - 40
+awt:
+  - 20
+  - 20
+  - 20
+sl:
+  - 80
+  - 80
+  - 80
+mu:
+  d: lognormal
+  args:
+    means:
+      -
+        - 8
+        - 10
+        - -1
+      -
+        - -1
+        - 9
+        - 15
+    deviations:
+      -
+        - 8
+        - 10
+        - -1
+      -
+        - -1
+        - 11
+        - 12
+v:
+  d: exponential
+  args:
+    - 0.2
+    - 0.1111
+    - 0.1
+p:
+  hp:
+    c1: -0.1
+    c2: -0.1
+    c3: -0.1
+  ap:
+    c1: -1
+    c2: -1
+    c3: -1
+  

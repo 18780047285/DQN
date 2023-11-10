@@ -1,0 +1,21 @@
+s: 
+   - 10 
+   - 15
+c:
+   d: poisson
+   args:
+      - 5
+      - 4
+mu:
+   d: exponential
+   args:
+     -
+       - 0.5
+     -
+       - 0.2
+       - 0.3
+v: 
+   d: exponential
+   args:
+      - 0.12
+      - 0.24
